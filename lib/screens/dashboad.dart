@@ -8,13 +8,21 @@ import 'package:flutter_weather_app/widgets/current_temperature.dart';
 
 class Dashboard extends StatefulWidget {
   final Weather forecast;
-
   Dashboard({Key key, this.forecast}) : super(key: key);
   @override
   DashboardState createState() => DashboardState();
 }
 
 class DashboardState extends State<Dashboard> {
+  final controller = ScrollController();
+  double heightContainerScroll = 0;
+  @override
+  void initState() {
+    super.initState();
+    controller.addListener(_scrollListener);
+    heightContainerScroll = 5;
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -53,21 +61,36 @@ class DashboardState extends State<Dashboard> {
         body: SafeArea(child: _scrollView()));
   }
 
+  _scrollListener() {
+    if (controller.offset <= 0) {
+      setState(() {
+        heightContainerScroll = -controller.offset + 5;
+      });
+    }
+  }
+
   _scrollView() {
-    return CustomScrollView(
-      shrinkWrap: true,
-      slivers: <Widget>[
-        SliverList(
-          delegate: SliverChildListDelegate(
-            <Widget>[
-              IntrinsicHeight(
-                child: _body(),
-              ),
-            ],
+    return Stack(children: <Widget>[
+      Container(
+        color: ThemeColors.primaryColor,
+        margin: EdgeInsets.all(0),
+        height: heightContainerScroll,
+      ),
+      CustomScrollView(
+        controller: controller,
+        slivers: <Widget>[
+          SliverList(
+            delegate: SliverChildListDelegate(
+              <Widget>[
+                IntrinsicHeight(
+                  child: _body(),
+                ),
+              ],
+            ),
           ),
-        ),
-      ],
-    );
+        ],
+      )
+    ]);
   }
 
   _body() {
