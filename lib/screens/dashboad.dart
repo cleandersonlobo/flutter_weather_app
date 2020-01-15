@@ -18,6 +18,7 @@ class DashboardState extends State<Dashboard> {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Colors.white,
+        extendBodyBehindAppBar: true,
         resizeToAvoidBottomPadding: false,
         appBar: AppBar(
           title: null,
@@ -44,37 +45,20 @@ class DashboardState extends State<Dashboard> {
             ),
           ],
         ),
-        body: SafeArea(
-          bottom: false,
-          child: _scrollView(),
-        ));
+        body: SafeArea(child: _scrollView()));
   }
 
   _scrollView() {
     return CustomScrollView(
       shrinkWrap: true,
       slivers: <Widget>[
-        SliverPadding(
-          padding: const EdgeInsets.all(0),
-          sliver: SliverList(
-            delegate: SliverChildListDelegate(
-              <Widget>[
-                IntrinsicHeight(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.max,
-                    children: <Widget>[
-                      Expanded(
-                        child: Container(
-                          constraints: BoxConstraints.expand(),
-                          color: Colors.white,
-                          child: _body(), // Red
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ],
-            ),
+        SliverList(
+          delegate: SliverChildListDelegate(
+            <Widget>[
+              IntrinsicHeight(
+                child: _body(),
+              ),
+            ],
           ),
         ),
       ],
@@ -84,44 +68,31 @@ class DashboardState extends State<Dashboard> {
   _body() {
     return Column(
       mainAxisSize: MainAxisSize.max,
+      crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
         Expanded(
-            child: Container(
-          color: Colors.white,
-          child: Center(
-              child: Column(
-            mainAxisSize: MainAxisSize.max,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: <Widget>[
-              Expanded(
-                child: Container(
-                    child: CurrentTemperature(
-                  temperature:
-                      widget.forecast.currentObservation.condition.temperature,
-                  condition: widget.forecast.currentObservation.condition.text,
-                  forecasts: widget.forecast.forecasts,
-                )),
-              ),
-              Arc(
-                child: Container(
-                  height: 120,
-                  color: ThemeColors.primaryColor,
-                ),
-              ),
-              Expanded(
-                child: Container(
-                  color: Colors.white,
-                  padding: EdgeInsets.all(20),
-                  child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: <Widget>[],
-                  ),
-                ),
-              ),
-            ],
-          )),
+            child: CurrentTemperature(
+          temperature: widget.forecast.currentObservation.condition.temperature,
+          condition: widget.forecast.currentObservation.condition.text,
+          forecasts: widget.forecast.forecasts,
         )),
+        Arc(
+          child: Container(
+            height: 120,
+            color: ThemeColors.primaryColor,
+          ),
+        ),
+        Expanded(
+          child: Container(
+            color: Colors.white,
+            padding: EdgeInsets.all(20),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: <Widget>[],
+            ),
+          ),
+        ),
       ],
     );
   }
