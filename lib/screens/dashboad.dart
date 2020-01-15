@@ -137,14 +137,14 @@ class DashboardState extends State<Dashboard> {
                   children: <Widget>[
                     CardDetails(
                       title:
-                          "${forecast.currentObservation.atmosphere["pressure"]} mb",
+                          "${forecast.currentObservation.atmosphere["pressure"].round()} mb",
                       description: "Pressure",
                       icon: "pressure",
                       iconColor: Colors.red[700],
                     ),
                     CardDetails(
                         title:
-                            "${forecast.currentObservation.wind["speed"]}km/h",
+                            "${forecast.currentObservation.wind["speed"].round()}km/h",
                         description: "East",
                         icon: "speed",
                         iconColor: Colors.teal),
@@ -166,7 +166,7 @@ class DashboardState extends State<Dashboard> {
                   children: <Widget>[
                     CardDetails(
                       title:
-                          "${forecast.currentObservation.atmosphere["visibility"]}",
+                          "${forecast.currentObservation.atmosphere["visibility"].round()}",
                       description: "Visibility",
                       icon: "visibility",
                       iconColor: Colors.purpleAccent,
@@ -183,7 +183,7 @@ class DashboardState extends State<Dashboard> {
                           "${forecast.currentObservation.astronomy["sunrise"]}",
                       description: "East",
                       icon: "sunrise",
-                      iconColor: Colors.deepPurple,
+                      iconColor: Colors.indigo[900],
                     ),
                   ],
                 ),

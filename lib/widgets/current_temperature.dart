@@ -34,7 +34,7 @@ class CurrentTemperature extends StatelessWidget {
                         style: TextStyle(
                             fontWeight: FontWeight.w500,
                             color: Colors.white,
-                            fontSize: 60)),
+                            fontSize: 80)),
                     Text(condition,
                         textAlign: TextAlign.center,
                         style: TextStyle(color: Colors.white, fontSize: 20))
@@ -58,7 +58,6 @@ class CurrentTemperature extends StatelessWidget {
                   ),
                   LineTemperature(forecast: forecasts[1], day: 1),
                   LineTemperature(forecast: forecasts[2], day: 2),
-                  LineTemperature(forecast: forecasts[3], day: 3),
                 ],
               ),
             ],
