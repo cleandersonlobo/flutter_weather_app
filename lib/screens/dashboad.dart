@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:flutter_weather_app/models/forecast.dart';
 import 'package:flutter_weather_app/utils/colors.dart';
 import 'package:flutter_weather_app/widgets/arc.dart';
@@ -23,9 +22,13 @@ class DashboardState extends State<Dashboard> {
         extendBodyBehindAppBar: true,
         resizeToAvoidBottomPadding: false,
         appBar: AppBar(
-          title: null,
           backgroundColor: ThemeColors.primaryColor,
           elevation: 0,
+          centerTitle: true,
+          title: Text(
+            widget.forecast.location.city,
+            style: TextStyle(fontWeight: FontWeight.w300),
+          ),
           leading: IconButton(
             icon: Icon(
               Icons.add,
