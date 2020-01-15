@@ -16,7 +16,7 @@ class Arc extends StatelessWidget {
 
 class ArcClipper extends CustomClipper<Path> {
   ArcClipper();
-  final double offset = 100;
+  final double offset = 50;
   @override
   Path getClip(Size size) {
     Path path = Path();
@@ -28,7 +28,7 @@ class ArcClipper extends CustomClipper<Path> {
   createArc(Size size, Path path) {
     path.lineTo(0.0, size.height - offset);
     path.quadraticBezierTo(
-        size.width / 2, size.height - 50, size.width, size.height - offset);
+        size.width / 2, size.height + 50, size.width, size.height - offset);
     path.lineTo(size.width, 0.0);
   }
 

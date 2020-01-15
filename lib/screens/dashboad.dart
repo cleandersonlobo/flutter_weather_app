@@ -68,7 +68,6 @@ class DashboardState extends State<Dashboard> {
   _body() {
     return Column(
       mainAxisSize: MainAxisSize.max,
-      crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
         Expanded(
             child: CurrentTemperature(
@@ -78,19 +77,24 @@ class DashboardState extends State<Dashboard> {
         )),
         Arc(
           child: Container(
-            height: 120,
+            height: 80,
             color: ThemeColors.primaryColor,
+            margin: EdgeInsets.all(0),
           ),
         ),
-        Expanded(
-          child: Container(
-            color: Colors.white,
-            padding: EdgeInsets.all(20),
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: <Widget>[],
-            ),
+        Container(
+          color: Colors.white,
+          padding: EdgeInsets.all(20),
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+              Card(
+                child: Column(
+                  children: <Widget>[Text("1122 mb"), Text("Pressure")],
+                ),
+              )
+            ],
           ),
         ),
       ],
