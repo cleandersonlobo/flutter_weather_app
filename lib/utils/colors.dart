@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class ThemeColors {
   static Color primaryColor = Color(0xff2482C7);
+  static Color lineGradientBottom = Color(0xff265291);
   static Color secondaryColor = Color(0xff0848A4);
   static Color blueAccent = Color(0xff204CFE);
   static Color blueLight = Color(0xff27BDFF);

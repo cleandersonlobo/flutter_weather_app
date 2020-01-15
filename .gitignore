@@ -30,6 +30,8 @@
 .pub/
 /build/
 
+/assets/*.json
+*.env.dart
 # Web related
 lib/generated_plugin_registrant.dart
 

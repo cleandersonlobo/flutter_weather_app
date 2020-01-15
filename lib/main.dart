@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => Dashboard(),
+        '/details': (context) => WeatherDetails(),
       },
       theme: ThemeData(
           backgroundColor: ThemeColors.primaryColor,
