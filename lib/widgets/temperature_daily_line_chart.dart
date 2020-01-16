@@ -51,8 +51,8 @@ class TemperatureLineChartDaily extends StatelessWidget {
           config: BezierChartConfig(
               verticalIndicatorStrokeWidth: 0,
               pinchZoom: false,
-              contentWidth: 82.0 * daily.length,
-              footerHeight: 50,
+              contentWidth: 92.0 * daily.length,
+              footerHeight: 40,
               displayDataPointWhenNoValue: false,
               verticalIndicatorFixedPosition: false,
               showVerticalIndicator: false,

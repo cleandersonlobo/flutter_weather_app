@@ -11,7 +11,7 @@ class ForecastDaily extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 90,
+      width: 100,
       child: Column(
         children: <Widget>[
           Text(

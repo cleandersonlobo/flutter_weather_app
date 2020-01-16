@@ -38,7 +38,7 @@ class TemperatureLineChart extends StatelessWidget {
               verticalIndicatorStrokeWidth: 0,
               pinchZoom: false,
               contentWidth: 80.0 * hourly.length,
-              footerHeight: 50,
+              footerHeight: 60,
               displayDataPointWhenNoValue: false,
               verticalIndicatorFixedPosition: false,
               showVerticalIndicator: false,

@@ -90,14 +90,14 @@ class _WeatherDetailsState extends State<WeatherDetails> {
           delegate: SliverChildListDelegate(
             <Widget>[
               IntrinsicHeight(
-                child: _body(),
+                child: _headerDetails(),
               ),
             ],
           ),
         ),
         SliverToBoxAdapter(
           child: Container(
-              constraints: BoxConstraints(maxHeight: 130),
+              constraints: BoxConstraints(maxHeight: 120),
               child: ListView.builder(
                   controller: _controllerList,
                   scrollDirection: Axis.horizontal,
@@ -162,7 +162,7 @@ class _WeatherDetailsState extends State<WeatherDetails> {
     );
   }
 
-  _body() {
+  _headerDetails() {
     return Column(
       mainAxisSize: MainAxisSize.max,
       children: <Widget>[
