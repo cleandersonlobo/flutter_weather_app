@@ -17,7 +17,7 @@ class Dashboard extends StatefulWidget {
 
 class DashboardState extends State<Dashboard> {
   final controller = ScrollController();
-  Weather forecast = new Weather();
+  Weather forecast;
   double heightContainerScroll = 0;
   @override
   void initState() {

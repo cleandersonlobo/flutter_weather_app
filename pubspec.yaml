@@ -27,6 +27,7 @@ dependencies:
   bezier_chart: "^1.0.15"
   intl: ^0.16.1
   auto_size_text: ^2.1.0
+  page_transition: "^1.1.5"
 
 dev_dependencies:
   flutter_test:
@@ -45,6 +46,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/paris.json
+    - assets/splash_weather.png
     - assets/details_weather.json
     - assets/celsius.svg
     - assets/weatherIcons/

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_weather_app/screens/dashboad.dart';
+import 'package:flutter_weather_app/screens/splash_screen.dart';
 import 'package:flutter_weather_app/screens/weather_details.dart';
 import 'package:flutter_weather_app/utils/colors.dart';
 import 'package:flutter_weather_app/utils/createColor.dart';
@@ -11,11 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Weather',
+      title: 'Weather Flutter',
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
-        '/': (context) => Dashboard(),
+        '/': (context) => SplashScreen(),
+        '/dashboard': (context) => Dashboard(),
         '/details': (context) => WeatherDetails(),
       },
       theme: ThemeData(
