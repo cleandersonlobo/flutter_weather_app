@@ -2,20 +2,21 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:flutter_weather_app/models/forecast_details.dart';
-import 'package:flutter_weather_app/utils/helpers.dart';
+import 'package:intl/intl.dart';
 
-class ForecastDailyByHour extends StatelessWidget {
-  const ForecastDailyByHour({Key key, this.hourly}) : super(key: key);
-  final Hourly hourly;
+class ForecastDaily extends StatelessWidget {
+  const ForecastDaily({Key key, this.daily}) : super(key: key);
+  final Daily daily;
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 80,
+      width: 90,
       child: Column(
         children: <Widget>[
           Text(
-            formatHourToString(hourly.observationTime.hour),
+            DateFormat.E()
+                .format(DateTime.parse(daily.observationTime.timestamp)),
             style: TextStyle(
               color: Colors.white,
               fontSize: 16,
@@ -24,16 +25,15 @@ class ForecastDailyByHour extends StatelessWidget {
           ),
           SizedBox(height: 15),
           SvgPicture.asset(
-            "assets/weatherIcons/${hourly.conditionCode}.svg",
+            "assets/weatherIcons/${daily.conditionCode}.svg",
             height: 30,
-            color: hourly.conditionDescription.contains("Sunny") ||
-                    hourly.conditionCode == 30
+            color: daily.conditionDescription.contains("Sunny")
                 ? Colors.yellowAccent
                 : Colors.white,
           ),
           SizedBox(height: 15),
           AutoSizeText(
-            hourly.conditionDescription,
+            daily.conditionDescription,
             textAlign: TextAlign.center,
             maxLines: 2,
             style: TextStyle(
