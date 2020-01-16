@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Weather',
       debugShowCheckedModeBanner: false,
-      initialRoute: '/details',
+      initialRoute: '/',
       routes: {
         '/': (context) => Dashboard(),
         '/details': (context) => WeatherDetails(),
