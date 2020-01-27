@@ -1,3 +1,4 @@
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -41,13 +42,15 @@ class WeatherDetailsHeader extends StatelessWidget {
                         ),
                       ),
                     ]),
-                Text(condition,
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 30,
-                        fontWeight: FontWeight.w400,
-                        letterSpacing: 0.5))
+                Expanded(
+                  child: Text(condition,
+                      textAlign: TextAlign.right,
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 20,
+                          fontWeight: FontWeight.w400,
+                          letterSpacing: 0.5)),
+                )
               ],
             ),
             SizedBox(
