@@ -1,0 +1,116 @@
+{
+  "location": {
+    "woeid": 455830,
+    "city": "Fortaleza",
+    "region": " CE",
+    "country": "Brazil",
+    "lat": -3.7184,
+    "long": -38.542919,
+    "timezone_id": "America/Fortaleza"
+  },
+  "current_observation": {
+    "wind": {
+      "chill": 27,
+      "direction": 113,
+      "speed": 15.0
+    },
+    "atmosphere": {
+      "humidity": 79,
+      "visibility": 16.1,
+      "pressure": 1012.0,
+      "rising": 0
+    },
+    "astronomy": {
+      "sunrise": "5:38 am",
+      "sunset": "5:56 pm"
+    },
+    "condition": {
+      "text": "Scattered Thunderstorms",
+      "code": 47,
+      "temperature": 27
+    },
+    "pubDate": 1580130000
+  },
+  "forecasts": [
+    {
+      "day": "Mon",
+      "date": 1580094000,
+      "low": 26,
+      "high": 28,
+      "text": "Thunderstorms",
+      "code": 4
+    },
+    {
+      "day": "Tue",
+      "date": 1580180400,
+      "low": 25,
+      "high": 28,
+      "text": "Thunderstorms",
+      "code": 4
+    },
+    {
+      "day": "Wed",
+      "date": 1580266800,
+      "low": 26,
+      "high": 29,
+      "text": "Thunderstorms",
+      "code": 4
+    },
+    {
+      "day": "Thu",
+      "date": 1580353200,
+      "low": 25,
+      "high": 28,
+      "text": "Thunderstorms",
+      "code": 4
+    },
+    {
+      "day": "Fri",
+      "date": 1580439600,
+      "low": 25,
+      "high": 28,
+      "text": "Thunderstorms",
+      "code": 4
+    },
+    {
+      "day": "Sat",
+      "date": 1580526000,
+      "low": 25,
+      "high": 28,
+      "text": "Thunderstorms",
+      "code": 4
+    },
+    {
+      "day": "Sun",
+      "date": 1580612400,
+      "low": 25,
+      "high": 28,
+      "text": "Thunderstorms",
+      "code": 4
+    },
+    {
+      "day": "Mon",
+      "date": 1580698800,
+      "low": 25,
+      "high": 28,
+      "text": "Thunderstorms",
+      "code": 4
+    },
+    {
+      "day": "Tue",
+      "date": 1580785200,
+      "low": 25,
+      "high": 28,
+      "text": "Thunderstorms",
+      "code": 4
+    },
+    {
+      "day": "Wed",
+      "date": 1580871600,
+      "low": 25,
+      "high": 27,
+      "text": "Thunderstorms",
+      "code": 4
+    }
+  ]
+}

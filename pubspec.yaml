@@ -45,7 +45,7 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-    - assets/paris.json
+    - assets/data_dashboard.json
     - assets/splash_weather.png
     - assets/details_weather.json
     - assets/celsius.svg

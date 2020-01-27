@@ -69,8 +69,8 @@ class DashboardState extends State<Dashboard> {
   }
 
   Future _loadJson() async {
-    final snapshot =
-        await DefaultAssetBundle.of(context).loadString('assets/paris.json');
+    final snapshot = await DefaultAssetBundle.of(context)
+        .loadString('assets/data_dashboard.json');
     Weather forecastJSON = Weather.fromJson(jsonDecode(snapshot.toString()));
     setState(() {
       forecast = forecastJSON;

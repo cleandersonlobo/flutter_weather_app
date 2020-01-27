@@ -1,0 +1,1096 @@
+{
+  "woeid": 455830,
+  "unit": "imperial",
+  "location": {
+    "woeid": 455830,
+    "photoWoeid": 455830,
+    "countryName": "Brazil",
+    "displayName": "Fortaleza",
+    "latitude": -3.7184,
+    "longitude": -38.542919,
+    "offsetSecs": -10800
+  },
+  "observation": {
+    "barometricPressure": 29.88436,
+    "conditionCode": 47,
+    "conditionDescription": "Scattered Thunderstorms",
+    "dayPartTexts": [
+      {
+        "text": "Showers with a high of 84 °F (28.9 °C) and a 55% chance of precipitation. Winds E at 8 to 11 mph (12.9 to 17.7 kph).",
+        "dayPart": "DAY"
+      },
+      {
+        "text": "Thunderstorms with a 55% chance of precipitation. Winds variable at 6 to 8 mph (9.7 to 12.9 kph). The overnight low will be 78 °F (25.6 °C).",
+        "dayPart": "NIGHT"
+      }
+    ],
+    "temperature": {
+      "now": 82,
+      "high": 84,
+      "low": 79,
+      "feelsLike": 90
+    },
+    "observationTime": {
+      "day": 27,
+      "hour": 10,
+      "weekday": 1,
+      "timestamp": "2020-01-27T10:00:00.000Z"
+    },
+    "humidity": 79,
+    "precipitationProbability": 56,
+    "uvDescription": "Moderate",
+    "uvIndex": 4,
+    "visibility": 10.004077,
+    "windDirection": 113,
+    "windDirectionCode": "East South East",
+    "windSpeed": 9,
+    "localTime": {
+      "day": 27,
+      "hour": 10,
+      "weekday": 1,
+      "timestamp": "2020-01-27T10:32:52.688Z"
+    }
+  },
+  "forecasts": {
+    "hourly": [
+      {
+        "conditionCode": 11,
+        "conditionDescription": "Showers",
+        "dayPartTexts": [],
+        "temperature": {
+          "now": 83,
+          "feelsLike": 90
+        },
+        "observationTime": {
+          "day": 27,
+          "hour": 11,
+          "weekday": 1,
+          "timestamp": "2020-01-27T11:00:00.000Z"
+        },
+        "humidity": 79,
+        "precipitationProbability": 55,
+        "windDirection": 90,
+        "windDirectionCode": "East",
+        "windSpeed": 10,
+        "localTime": {
+          "day": 27,
+          "hour": 10,
+          "weekday": 1,
+          "timestamp": "2020-01-27T10:32:52.688Z"
+        }
+      },
+      {
+        "conditionCode": 11,
+        "conditionDescription": "Showers",
+        "dayPartTexts": [],
+        "temperature": {
+          "now": 83,
+          "feelsLike": 90
+        },
+        "observationTime": {
+          "day": 27,
+          "hour": 12,
+          "weekday": 1,
+          "timestamp": "2020-01-27T12:00:00.000Z"
+        },
+        "humidity": 76,
+        "precipitationProbability": 50,
+        "windDirection": 90,
+        "windDirectionCode": "East",
+        "windSpeed": 11,
+        "localTime": {
+          "day": 27,
+          "hour": 10,
+          "weekday": 1,
+          "timestamp": "2020-01-27T10:32:52.688Z"
+        }
+      },
+      {
+        "conditionCode": 47,
+        "conditionDescription": "Scattered Thunderstorms",
+        "dayPartTexts": [],
+        "temperature": {
+          "now": 83,
+          "feelsLike": 91
+        },
+        "observationTime": {
+          "day": 27,
+          "hour": 13,
+          "weekday": 1,
+          "timestamp": "2020-01-27T13:00:00.000Z"
+        },
+        "humidity": 76,
+        "precipitationProbability": 15,
+        "windDirection": 90,
+        "windDirectionCode": "East",
+        "windSpeed": 10,
+        "localTime": {
+          "day": 27,
+          "hour": 10,
+          "weekday": 1,
+          "timestamp": "2020-01-27T10:32:52.688Z"
+        }
+      },
+      {
+        "conditionCode": 28,
+        "conditionDescription": "Mostly Cloudy",
+        "dayPartTexts": [],
+        "temperature": {
+          "now": 84,
+          "feelsLike": 92
+        },
+        "observationTime": {
+          "day": 27,
+          "hour": 14,
+          "weekday": 1,
+          "timestamp": "2020-01-27T14:00:00.000Z"
+        },
+        "humidity": 76,
+        "precipitationProbability": 0,
+        "windDirection": 90,
+        "windDirectionCode": "East",
+        "windSpeed": 9,
+        "localTime": {
+          "day": 27,
+          "hour": 10,
+          "weekday": 1,
+          "timestamp": "2020-01-27T10:32:52.688Z"
+        }
+      },
+      {
+        "conditionCode": 28,
+        "conditionDescription": "Mostly Cloudy",
+        "dayPartTexts": [],
+        "temperature": {
+          "now": 84,
+          "feelsLike": 92
+        },
+        "observationTime": {
+          "day": 27,
+          "hour": 15,
+          "weekday": 1,
+          "timestamp": "2020-01-27T15:00:00.000Z"
+        },
+        "humidity": 76,
+        "precipitationProbability": 0,
+        "windDirection": 90,
+        "windDirectionCode": "East",
+        "windSpeed": 9,
+        "localTime": {
+          "day": 27,
+          "hour": 10,
+          "weekday": 1,
+          "timestamp": "2020-01-27T10:32:52.688Z"
+        }
+      },
+      {
+        "conditionCode": 26,
+        "conditionDescription": "Cloudy",
+        "dayPartTexts": [],
+        "temperature": {
+          "now": 83,
+          "feelsLike": 91
+        },
+        "observationTime": {
+          "day": 27,
+          "hour": 16,
+          "weekday": 1,
+          "timestamp": "2020-01-27T16:00:00.000Z"
+        },
+        "humidity": 76,
+        "precipitationProbability": 0,
+        "windDirection": 90,
+        "windDirectionCode": "East",
+        "windSpeed": 8,
+        "localTime": {
+          "day": 27,
+          "hour": 10,
+          "weekday": 1,
+          "timestamp": "2020-01-27T10:32:52.688Z"
+        }
+      },
+      {
+        "conditionCode": 26,
+        "conditionDescription": "Cloudy",
+        "dayPartTexts": [],
+        "temperature": {
+          "now": 82,
+          "feelsLike": 90
+        },
+        "observationTime": {
+          "day": 27,
+          "hour": 17,
+          "weekday": 1,
+          "timestamp": "2020-01-27T17:00:00.000Z"
+        },
+        "humidity": 80,
+        "precipitationProbability": 0,
+        "windDirection": 90,
+        "windDirectionCode": "East",
+        "windSpeed": 8,
+        "localTime": {
+          "day": 27,
+          "hour": 10,
+          "weekday": 1,
+          "timestamp": "2020-01-27T10:32:52.688Z"
+        }
+      },
+      {
+        "conditionCode": 26,
+        "conditionDescription": "Cloudy",
+        "dayPartTexts": [],
+        "temperature": {
+          "now": 82,
+          "feelsLike": 89
+        },
+        "observationTime": {
+          "day": 27,
+          "hour": 18,
+          "weekday": 1,
+          "timestamp": "2020-01-27T18:00:00.000Z"
+        },
+        "humidity": 80,
+        "precipitationProbability": 0,
+        "windDirection": 68,
+        "windDirectionCode": "East North East",
+        "windSpeed": 7,
+        "localTime": {
+          "day": 27,
+          "hour": 10,
+          "weekday": 1,
+          "timestamp": "2020-01-27T10:32:52.688Z"
+        }
+      },
+      {
+        "conditionCode": 4,
+        "conditionDescription": "Thunderstorms",
+        "dayPartTexts": [],
+        "temperature": {
+          "now": 81,
+          "feelsLike": 88
+        },
+        "observationTime": {
+          "day": 27,
+          "hour": 19,
+          "weekday": 1,
+          "timestamp": "2020-01-27T19:00:00.000Z"
+        },
+        "humidity": 81,
+        "precipitationProbability": 5,
+        "windDirection": 68,
+        "windDirectionCode": "East North East",
+        "windSpeed": 7,
+        "localTime": {
+          "day": 27,
+          "hour": 10,
+          "weekday": 1,
+          "timestamp": "2020-01-27T10:32:52.688Z"
+        }
+      },
+      {
+        "conditionCode": 4,
+        "conditionDescription": "Thunderstorms",
+        "dayPartTexts": [],
+        "temperature": {
+          "now": 81,
+          "feelsLike": 88
+        },
+        "observationTime": {
+          "day": 27,
+          "hour": 20,
+          "weekday": 1,
+          "timestamp": "2020-01-27T20:00:00.000Z"
+        },
+        "humidity": 81,
+        "precipitationProbability": 5,
+        "windDirection": 68,
+        "windDirectionCode": "East North East",
+        "windSpeed": 6,
+        "localTime": {
+          "day": 27,
+          "hour": 10,
+          "weekday": 1,
+          "timestamp": "2020-01-27T10:32:52.689Z"
+        }
+      },
+      {
+        "conditionCode": 4,
+        "conditionDescription": "Thunderstorms",
+        "dayPartTexts": [],
+        "temperature": {
+          "now": 81,
+          "feelsLike": 88
+        },
+        "observationTime": {
+          "day": 27,
+          "hour": 21,
+          "weekday": 1,
+          "timestamp": "2020-01-27T21:00:00.000Z"
+        },
+        "humidity": 84,
+        "precipitationProbability": 25,
+        "windDirection": 45,
+        "windDirectionCode": "North East",
+        "windSpeed": 6,
+        "localTime": {
+          "day": 27,
+          "hour": 10,
+          "weekday": 1,
+          "timestamp": "2020-01-27T10:32:52.689Z"
+        }
+      },
+      {
+        "conditionCode": 4,
+        "conditionDescription": "Thunderstorms",
+        "dayPartTexts": [],
+        "temperature": {
+          "now": 80,
+          "feelsLike": 87
+        },
+        "observationTime": {
+          "day": 27,
+          "hour": 22,
+          "weekday": 1,
+          "timestamp": "2020-01-27T22:00:00.000Z"
+        },
+        "humidity": 86,
+        "precipitationProbability": 55,
+        "windDirection": 68,
+        "windDirectionCode": "East North East",
+        "windSpeed": 6,
+        "localTime": {
+          "day": 27,
+          "hour": 10,
+          "weekday": 1,
+          "timestamp": "2020-01-27T10:32:52.689Z"
+        }
+      },
+      {
+        "conditionCode": 4,
+        "conditionDescription": "Thunderstorms",
+        "dayPartTexts": [],
+        "temperature": {
+          "now": 80,
+          "feelsLike": 86
+        },
+        "observationTime": {
+          "day": 27,
+          "hour": 23,
+          "weekday": 1,
+          "timestamp": "2020-01-27T23:00:00.000Z"
+        },
+        "humidity": 86,
+        "precipitationProbability": 55,
+        "windDirection": 68,
+        "windDirectionCode": "East North East",
+        "windSpeed": 7,
+        "localTime": {
+          "day": 27,
+          "hour": 10,
+          "weekday": 1,
+          "timestamp": "2020-01-27T10:32:52.689Z"
+        }
+      },
+      {
+        "conditionCode": 4,
+        "conditionDescription": "Thunderstorms",
+        "dayPartTexts": [],
+        "temperature": {
+          "now": 79,
+          "feelsLike": 85
+        },
+        "observationTime": {
+          "day": 28,
+          "hour": 0,
+          "weekday": 2,
+          "timestamp": "2020-01-28T00:00:00.000Z"
+        },
+        "humidity": 89,
+        "precipitationProbability": 55,
+        "windDirection": 68,
+        "windDirectionCode": "East North East",
+        "windSpeed": 7,
+        "localTime": {
+          "day": 27,
+          "hour": 10,
+          "weekday": 1,
+          "timestamp": "2020-01-27T10:32:52.689Z"
+        }
+      },
+      {
+        "conditionCode": 4,
+        "conditionDescription": "Thunderstorms",
+        "dayPartTexts": [],
+        "temperature": {
+          "now": 79,
+          "feelsLike": 85
+        },
+        "observationTime": {
+          "day": 28,
+          "hour": 1,
+          "weekday": 2,
+          "timestamp": "2020-01-28T01:00:00.000Z"
+        },
+        "humidity": 89,
+        "precipitationProbability": 40,
+        "windDirection": 90,
+        "windDirectionCode": "East",
+        "windSpeed": 7,
+        "localTime": {
+          "day": 27,
+          "hour": 10,
+          "weekday": 1,
+          "timestamp": "2020-01-27T10:32:52.689Z"
+        }
+      },
+      {
+        "conditionCode": 4,
+        "conditionDescription": "Thunderstorms",
+        "dayPartTexts": [],
+        "temperature": {
+          "now": 79,
+          "feelsLike": 85
+        },
+        "observationTime": {
+          "day": 28,
+          "hour": 2,
+          "weekday": 2,
+          "timestamp": "2020-01-28T02:00:00.000Z"
+        },
+        "humidity": 89,
+        "precipitationProbability": 35,
+        "windDirection": 90,
+        "windDirectionCode": "East",
+        "windSpeed": 6,
+        "localTime": {
+          "day": 27,
+          "hour": 10,
+          "weekday": 1,
+          "timestamp": "2020-01-27T10:32:52.689Z"
+        }
+      },
+      {
+        "conditionCode": 47,
+        "conditionDescription": "Scattered Thunderstorms",
+        "dayPartTexts": [],
+        "temperature": {
+          "now": 79,
+          "feelsLike": 85
+        },
+        "observationTime": {
+          "day": 28,
+          "hour": 3,
+          "weekday": 2,
+          "timestamp": "2020-01-28T03:00:00.000Z"
+        },
+        "humidity": 89,
+        "precipitationProbability": 40,
+        "windDirection": 113,
+        "windDirectionCode": "East South East",
+        "windSpeed": 6,
+        "localTime": {
+          "day": 27,
+          "hour": 10,
+          "weekday": 1,
+          "timestamp": "2020-01-27T10:32:52.689Z"
+        }
+      },
+      {
+        "conditionCode": 47,
+        "conditionDescription": "Scattered Thunderstorms",
+        "dayPartTexts": [],
+        "temperature": {
+          "now": 78,
+          "feelsLike": 84
+        },
+        "observationTime": {
+          "day": 28,
+          "hour": 4,
+          "weekday": 2,
+          "timestamp": "2020-01-28T04:00:00.000Z"
+        },
+        "humidity": 89,
+        "precipitationProbability": 50,
+        "windDirection": 113,
+        "windDirectionCode": "East South East",
+        "windSpeed": 6,
+        "localTime": {
+          "day": 27,
+          "hour": 10,
+          "weekday": 1,
+          "timestamp": "2020-01-27T10:32:52.689Z"
+        }
+      },
+      {
+        "conditionCode": 47,
+        "conditionDescription": "Scattered Thunderstorms",
+        "dayPartTexts": [],
+        "temperature": {
+          "now": 78,
+          "feelsLike": 84
+        },
+        "observationTime": {
+          "day": 28,
+          "hour": 5,
+          "weekday": 2,
+          "timestamp": "2020-01-28T05:00:00.000Z"
+        },
+        "humidity": 91,
+        "precipitationProbability": 55,
+        "windDirection": 113,
+        "windDirectionCode": "East South East",
+        "windSpeed": 6,
+        "localTime": {
+          "day": 27,
+          "hour": 10,
+          "weekday": 1,
+          "timestamp": "2020-01-27T10:32:52.689Z"
+        }
+      },
+      {
+        "conditionCode": 47,
+        "conditionDescription": "Scattered Thunderstorms",
+        "dayPartTexts": [],
+        "temperature": {
+          "now": 78,
+          "feelsLike": 84
+        },
+        "observationTime": {
+          "day": 28,
+          "hour": 6,
+          "weekday": 2,
+          "timestamp": "2020-01-28T06:00:00.000Z"
+        },
+        "humidity": 89,
+        "precipitationProbability": 45,
+        "windDirection": 113,
+        "windDirectionCode": "East South East",
+        "windSpeed": 5,
+        "localTime": {
+          "day": 27,
+          "hour": 10,
+          "weekday": 1,
+          "timestamp": "2020-01-27T10:32:52.689Z"
+        }
+      },
+      {
+        "conditionCode": 4,
+        "conditionDescription": "Thunderstorms",
+        "dayPartTexts": [],
+        "temperature": {
+          "now": 79,
+          "feelsLike": 85
+        },
+        "observationTime": {
+          "day": 28,
+          "hour": 7,
+          "weekday": 2,
+          "timestamp": "2020-01-28T07:00:00.000Z"
+        },
+        "humidity": 86,
+        "precipitationProbability": 35,
+        "windDirection": 113,
+        "windDirectionCode": "East South East",
+        "windSpeed": 6,
+        "localTime": {
+          "day": 27,
+          "hour": 10,
+          "weekday": 1,
+          "timestamp": "2020-01-27T10:32:52.689Z"
+        }
+      },
+      {
+        "conditionCode": 4,
+        "conditionDescription": "Thunderstorms",
+        "dayPartTexts": [],
+        "temperature": {
+          "now": 80,
+          "feelsLike": 87
+        },
+        "observationTime": {
+          "day": 28,
+          "hour": 8,
+          "weekday": 2,
+          "timestamp": "2020-01-28T08:00:00.000Z"
+        },
+        "humidity": 85,
+        "precipitationProbability": 25,
+        "windDirection": 90,
+        "windDirectionCode": "East",
+        "windSpeed": 7,
+        "localTime": {
+          "day": 27,
+          "hour": 10,
+          "weekday": 1,
+          "timestamp": "2020-01-27T10:32:52.689Z"
+        }
+      },
+      {
+        "conditionCode": 4,
+        "conditionDescription": "Thunderstorms",
+        "dayPartTexts": [],
+        "temperature": {
+          "now": 82,
+          "feelsLike": 89
+        },
+        "observationTime": {
+          "day": 28,
+          "hour": 9,
+          "weekday": 2,
+          "timestamp": "2020-01-28T09:00:00.000Z"
+        },
+        "humidity": 80,
+        "precipitationProbability": 25,
+        "windDirection": 90,
+        "windDirectionCode": "East",
+        "windSpeed": 8,
+        "localTime": {
+          "day": 27,
+          "hour": 10,
+          "weekday": 1,
+          "timestamp": "2020-01-27T10:32:52.689Z"
+        }
+      },
+      {
+        "conditionCode": 4,
+        "conditionDescription": "Thunderstorms",
+        "dayPartTexts": [],
+        "temperature": {
+          "now": 83,
+          "feelsLike": 90
+        },
+        "observationTime": {
+          "day": 28,
+          "hour": 10,
+          "weekday": 2,
+          "timestamp": "2020-01-28T10:00:00.000Z"
+        },
+        "humidity": 79,
+        "precipitationProbability": 15,
+        "windDirection": 90,
+        "windDirectionCode": "East",
+        "windSpeed": 9,
+        "localTime": {
+          "day": 27,
+          "hour": 10,
+          "weekday": 1,
+          "timestamp": "2020-01-27T10:32:52.689Z"
+        }
+      },
+      {
+        "conditionCode": 4,
+        "conditionDescription": "Thunderstorms",
+        "dayPartTexts": [],
+        "temperature": {
+          "now": 83,
+          "feelsLike": 91
+        },
+        "observationTime": {
+          "day": 28,
+          "hour": 11,
+          "weekday": 2,
+          "timestamp": "2020-01-28T11:00:00.000Z"
+        },
+        "humidity": 76,
+        "precipitationProbability": 15,
+        "windDirection": 90,
+        "windDirectionCode": "East",
+        "windSpeed": 10,
+        "localTime": {
+          "day": 27,
+          "hour": 10,
+          "weekday": 1,
+          "timestamp": "2020-01-27T10:32:52.689Z"
+        }
+      }
+    ],
+    "daily": [
+      {
+        "conditionCode": 4,
+        "conditionDescription": "Thunderstorms",
+        "dayPartTexts": [
+          {
+            "text": "Showers with a high of 84 °F (28.9 °C) and a 55% chance of precipitation. Winds E at 8 to 11 mph (12.9 to 17.7 kph).",
+            "dayPart": "DAY"
+          },
+          {
+            "text": "Thunderstorms with a 55% chance of precipitation. Winds variable at 6 to 8 mph (9.7 to 12.9 kph). The overnight low will be 78 °F (25.6 °C).",
+            "dayPart": "NIGHT"
+          }
+        ],
+        "temperature": {
+          "high": 84,
+          "low": 79
+        },
+        "observationTime": {
+          "day": 27,
+          "hour": 1,
+          "weekday": 1,
+          "timestamp": "2020-01-27T01:00:00.000Z"
+        },
+        "humidity": 83,
+        "precipitationProbability": 55,
+        "localTime": {
+          "day": 27,
+          "hour": 11,
+          "weekday": 1,
+          "timestamp": "2020-01-27T11:32:52.689Z"
+        }
+      },
+      {
+        "conditionCode": 4,
+        "conditionDescription": "Thunderstorms",
+        "dayPartTexts": [
+          {
+            "text": "Thunderstorms today with a high of 84 °F (28.9 °C) and a low of 78 °F (25.6 °C).  There is a 55% chance of precipitation.",
+            "dayPart": "BOTH"
+          }
+        ],
+        "temperature": {
+          "high": 84,
+          "low": 78
+        },
+        "observationTime": {
+          "day": 28,
+          "hour": 1,
+          "weekday": 2,
+          "timestamp": "2020-01-28T01:00:00.000Z"
+        },
+        "humidity": 82,
+        "precipitationProbability": 55,
+        "localTime": {
+          "day": 27,
+          "hour": 11,
+          "weekday": 1,
+          "timestamp": "2020-01-27T11:32:52.689Z"
+        }
+      },
+      {
+        "conditionCode": 4,
+        "conditionDescription": "Thunderstorms",
+        "dayPartTexts": [
+          {
+            "text": "Thunderstorms today with a high of 85 °F (29.4 °C) and a low of 79 °F (26.1 °C).  There is a 60% chance of precipitation.",
+            "dayPart": "BOTH"
+          }
+        ],
+        "temperature": {
+          "high": 85,
+          "low": 79
+        },
+        "observationTime": {
+          "day": 29,
+          "hour": 1,
+          "weekday": 3,
+          "timestamp": "2020-01-29T01:00:00.000Z"
+        },
+        "humidity": 82,
+        "precipitationProbability": 60,
+        "localTime": {
+          "day": 27,
+          "hour": 11,
+          "weekday": 1,
+          "timestamp": "2020-01-27T11:32:52.689Z"
+        }
+      },
+      {
+        "conditionCode": 4,
+        "conditionDescription": "Thunderstorms",
+        "dayPartTexts": [
+          {
+            "text": "Thunderstorms today with a high of 84 °F (28.9 °C) and a low of 78 °F (25.6 °C).  There is a 55% chance of precipitation.",
+            "dayPart": "BOTH"
+          }
+        ],
+        "temperature": {
+          "high": 84,
+          "low": 78
+        },
+        "observationTime": {
+          "day": 30,
+          "hour": 1,
+          "weekday": 4,
+          "timestamp": "2020-01-30T01:00:00.000Z"
+        },
+        "humidity": 81,
+        "precipitationProbability": 55,
+        "localTime": {
+          "day": 27,
+          "hour": 11,
+          "weekday": 1,
+          "timestamp": "2020-01-27T11:32:52.689Z"
+        }
+      },
+      {
+        "conditionCode": 4,
+        "conditionDescription": "Thunderstorms",
+        "dayPartTexts": [
+          {
+            "text": "Thunderstorms today with a high of 84 °F (28.9 °C) and a low of 78 °F (25.6 °C).  There is a 55% chance of precipitation.",
+            "dayPart": "BOTH"
+          }
+        ],
+        "temperature": {
+          "high": 84,
+          "low": 78
+        },
+        "observationTime": {
+          "day": 31,
+          "hour": 1,
+          "weekday": 5,
+          "timestamp": "2020-01-31T01:00:00.000Z"
+        },
+        "humidity": 81,
+        "precipitationProbability": 55,
+        "localTime": {
+          "day": 27,
+          "hour": 11,
+          "weekday": 1,
+          "timestamp": "2020-01-27T11:32:52.689Z"
+        }
+      },
+      {
+        "conditionCode": 4,
+        "conditionDescription": "Thunderstorms",
+        "dayPartTexts": [
+          {
+            "text": "Thunderstorms today with a high of 83 °F (28.3 °C) and a low of 78 °F (25.6 °C).  There is a 50% chance of precipitation.",
+            "dayPart": "BOTH"
+          }
+        ],
+        "temperature": {
+          "high": 83,
+          "low": 78
+        },
+        "observationTime": {
+          "day": 1,
+          "hour": 1,
+          "weekday": 6,
+          "timestamp": "2020-02-01T01:00:00.000Z"
+        },
+        "humidity": 82,
+        "precipitationProbability": 50,
+        "localTime": {
+          "day": 27,
+          "hour": 11,
+          "weekday": 1,
+          "timestamp": "2020-01-27T11:32:52.689Z"
+        }
+      },
+      {
+        "conditionCode": 4,
+        "conditionDescription": "Thunderstorms",
+        "dayPartTexts": [
+          {
+            "text": "Thunderstorms today with a high of 84 °F (28.9 °C) and a low of 78 °F (25.6 °C).  There is a 50% chance of precipitation.",
+            "dayPart": "BOTH"
+          }
+        ],
+        "temperature": {
+          "high": 84,
+          "low": 78
+        },
+        "observationTime": {
+          "day": 2,
+          "hour": 1,
+          "weekday": 0,
+          "timestamp": "2020-02-02T01:00:00.000Z"
+        },
+        "humidity": 83,
+        "precipitationProbability": 50,
+        "localTime": {
+          "day": 27,
+          "hour": 11,
+          "weekday": 1,
+          "timestamp": "2020-01-27T11:32:52.689Z"
+        }
+      },
+      {
+        "conditionCode": 4,
+        "conditionDescription": "Thunderstorms",
+        "dayPartTexts": [
+          {
+            "text": "Thunderstorms today with a high of 83 °F (28.3 °C) and a low of 78 °F (25.6 °C).  There is a 55% chance of precipitation.",
+            "dayPart": "BOTH"
+          }
+        ],
+        "temperature": {
+          "high": 83,
+          "low": 78
+        },
+        "observationTime": {
+          "day": 3,
+          "hour": 1,
+          "weekday": 1,
+          "timestamp": "2020-02-03T01:00:00.000Z"
+        },
+        "humidity": 84,
+        "precipitationProbability": 55,
+        "localTime": {
+          "day": 27,
+          "hour": 11,
+          "weekday": 1,
+          "timestamp": "2020-01-27T11:32:52.689Z"
+        }
+      },
+      {
+        "conditionCode": 4,
+        "conditionDescription": "Thunderstorms",
+        "dayPartTexts": [
+          {
+            "text": "Thunderstorms today with a high of 83 °F (28.3 °C) and a low of 78 °F (25.6 °C).  There is a 65% chance of precipitation.",
+            "dayPart": "BOTH"
+          }
+        ],
+        "temperature": {
+          "high": 83,
+          "low": 78
+        },
+        "observationTime": {
+          "day": 4,
+          "hour": 1,
+          "weekday": 2,
+          "timestamp": "2020-02-04T01:00:00.000Z"
+        },
+        "humidity": 85,
+        "precipitationProbability": 65,
+        "localTime": {
+          "day": 27,
+          "hour": 11,
+          "weekday": 1,
+          "timestamp": "2020-01-27T11:32:52.689Z"
+        }
+      },
+      {
+        "conditionCode": 4,
+        "conditionDescription": "Thunderstorms",
+        "dayPartTexts": [
+          {
+            "text": "Thunderstorms today with a high of 82 °F (27.8 °C) and a low of 77 °F (25.0 °C).  There is a 50% chance of precipitation.",
+            "dayPart": "BOTH"
+          }
+        ],
+        "temperature": {
+          "high": 82,
+          "low": 77
+        },
+        "observationTime": {
+          "day": 5,
+          "hour": 1,
+          "weekday": 3,
+          "timestamp": "2020-02-05T01:00:00.000Z"
+        },
+        "humidity": 83,
+        "precipitationProbability": 50,
+        "localTime": {
+          "day": 27,
+          "hour": 11,
+          "weekday": 1,
+          "timestamp": "2020-01-27T11:32:52.689Z"
+        }
+      },
+      {
+        "conditionCode": 4,
+        "conditionDescription": "Thunderstorms",
+        "dayPartTexts": [
+          {
+            "text": "Thunderstorms today with a high of 82 °F (27.8 °C) and a low of 77 °F (25.0 °C).  There is a 45% chance of precipitation.",
+            "dayPart": "BOTH"
+          }
+        ],
+        "temperature": {
+          "high": 82,
+          "low": 77
+        },
+        "observationTime": {
+          "day": 6,
+          "hour": 1,
+          "weekday": 4,
+          "timestamp": "2020-02-06T01:00:00.000Z"
+        },
+        "humidity": 86,
+        "precipitationProbability": 45,
+        "localTime": {
+          "day": 27,
+          "hour": 11,
+          "weekday": 1,
+          "timestamp": "2020-01-27T11:32:52.689Z"
+        }
+      }
+    ]
+  },
+  "precipitations": [
+    {
+      "timeSlot": "MORNING",
+      "probability": 55
+    },
+    {
+      "timeSlot": "AFTERNOON",
+      "probability": 50
+    },
+    {
+      "timeSlot": "EVENING",
+      "probability": 5
+    },
+    {
+      "timeSlot": "NIGHT",
+      "probability": 55
+    },
+    {
+      "timeSlot": "OVERNIGHT",
+      "probability": 55
+    },
+    {
+      "timeSlot": "EARLY_MORNING",
+      "probability": 55
+    }
+  ],
+  "sunAndMoon": {
+    "sunrise": 20280,
+    "sunset": 64560,
+    "moonPhase": 0
+  },
+  "photos": [
+    {
+      "id": "9373744913",
+      "dayOrNight": "day",
+      "owner": "58651751@N05",
+      "ownerName": "Guido Waldenmeier from Germany",
+      "resolutions": [
+        {
+          "height": 320,
+          "width": 480,
+          "url": "https://s.yimg.com/un/api/res/1.2/dwBL_SWjZrvxcirfA5FZQg--/YXBwaWQ9eW13ZWF0aGVyO2NjPTg2NDAwO3E9ODA7Zmk9ZmlsbDt3PTQ4MDtoPTMyMDtmcj0w/http://farm8.staticflickr.com/weather-flickr-images/7384/9373744913_e994cfd595_k.jpg"
+        },
+        {
+          "height": 480,
+          "width": 320,
+          "url": "https://s.yimg.com/un/api/res/1.2/77mMHv_U_raPIOqQXqb2LQ--/YXBwaWQ9eW13ZWF0aGVyO2NjPTg2NDAwO3E9ODA7Zmk9ZmlsbDt3PTMyMDtoPTQ4MDtmcj0w/http://farm8.staticflickr.com/weather-flickr-images/7384/9373744913_e994cfd595_k.jpg"
+        },
+        {
+          "height": 480,
+          "width": 800,
+          "url": "https://s.yimg.com/un/api/res/1.2/tqjvpQZ0rkxjgxdyyKJg3Q--/YXBwaWQ9eW13ZWF0aGVyO2NjPTg2NDAwO3E9ODA7Zmk9ZmlsbDt3PTgwMDtoPTQ4MDtmcj0w/http://farm8.staticflickr.com/weather-flickr-images/7384/9373744913_e994cfd595_k.jpg"
+        },
+        {
+          "height": 800,
+          "width": 480,
+          "url": "https://s.yimg.com/un/api/res/1.2/S4t2Qvbfql3xZJrSoWRQLw--/YXBwaWQ9eW13ZWF0aGVyO2NjPTg2NDAwO3E9ODA7Zmk9ZmlsbDt3PTQ4MDtoPTgwMDtmcj0w/http://farm8.staticflickr.com/weather-flickr-images/7384/9373744913_e994cfd595_k.jpg"
+        },
+        {
+          "height": 720,
+          "width": 1280,
+          "url": "https://s.yimg.com/un/api/res/1.2/RaU0ic5GieOkGULykIH8wA--/YXBwaWQ9eW13ZWF0aGVyO2NjPTg2NDAwO3E9ODA7Zmk9ZmlsbDt3PTEyODA7aD03MjA7ZnI9MA--/http://farm8.staticflickr.com/weather-flickr-images/7384/9373744913_e994cfd595_k.jpg"
+        },
+        {
+          "height": 1280,
+          "width": 720,
+          "url": "https://s.yimg.com/un/api/res/1.2/uXl_M_drlMwxkH9KOm00Fg--/YXBwaWQ9eW13ZWF0aGVyO2NjPTg2NDAwO3E9ODA7Zmk9ZmlsbDt3PTcyMDtoPTEyODA7ZnI9MA--/http://farm8.staticflickr.com/weather-flickr-images/7384/9373744913_e994cfd595_k.jpg"
+        }
+      ]
+    }
+  ],
+  "provider": {
+    "name": "GWC"
+  }
+}
